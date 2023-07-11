@@ -28,7 +28,7 @@ calculate.onclick = function(){
         var drinkPerPerson =(adult.value * 1500) + ((children.value * 1500) * 0.5);
     }
 
-    meat.innerHTML = meatPerPerson.toFixed(3);
+    meat.innerHTML = (meatPerPerson.toFixed(2)).toString().replace(".", ",");
     beer.innerHTML = Math.ceil(beerPerPerson / 355);
     drink.innerHTML = Math.ceil(drinkPerPerson / 2000);
 }
