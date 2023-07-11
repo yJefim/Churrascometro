@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon/meat-icon.png" type="image/x-icon">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <header>
+        <h1>Saiba quanta comiga e bebida vai precisar!</h1>
+    </header>
+    <main>
+        <h1>Churrascômetro</h1>
+
+        <p>Quantidade de Adultos</p>
+        <input type="number" id="adult" placeholder="Adultos">
+
+        <p>Quantidade de Crianças</p>
+        <input type="number" id="children" placeholder="Crianças">
+
+        <p>Duração do Churrasco</p>
+        <input type="number" id="hours" placeholder="Duração (h)">
+
+        <button id="calculate">Calcular</button>
+
+        <div id="result">
+            <hr>
+
+            <h2>Você vai precisar de:</h2>
+            <p><img src="img/meat.png" alt="Carne"><span id="meat"></span> KG de Carne</p>
+            <p><img src="img/beer.png" alt="Cerveja"><span id="beer"></span> Latas de Cerveja</p>
+            <p><img src="img/drink.png" alt="Bebidas"><span id="drink"></span> Garrafas(2L) de Bebidas</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
